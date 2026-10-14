@@ -1,6 +1,13 @@
-streamlit
-pandas
-numpy
-plotly
-xlsxwriter
-openpyxl
+# 액상화 평가 프로그램 (app21.py) - 웹 배포(Streamlit Community Cloud 등)용 패키지 목록
+# Streamlit 1.46 이후 버전은 use_container_width 인자가 단계적으로 폐지되므로 1.45대까지로 고정
+streamlit>=1.40,<1.46
+pandas>=2.1,<3
+numpy>=1.26,<3
+scipy>=1.11
+matplotlib>=3.8
+plotly>=5.18,<6
+python-docx>=1.1
+XlsxWriter>=3.1
+openpyxl>=3.1
+xlrd>=2.0.1
+jinja2>=3.1
